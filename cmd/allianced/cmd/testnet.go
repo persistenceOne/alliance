@@ -305,7 +305,6 @@ func initTestnetFiles(
 				sdk.NewDec(1).Quo(sdk.NewDec(100)),
 				sdk.NewDec(1).Quo(sdk.NewDec(100)),
 			),
-			math.OneInt(),
 		)
 		if err != nil {
 			return err

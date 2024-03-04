@@ -67,3 +67,7 @@ func (h Hooks) AfterValidatorSlashed(_ sdk.Context, _ sdk.ConsAddress, _ sdk.Val
 func (h Hooks) AfterUnbondingInitiated(_ sdk.Context, _ uint64) error {
 	return nil
 }
+
+func (h Hooks) BeforeTokenizeShareRecordRemoved(_ sdk.Context, _ uint64) error {
+	return nil
+}
